@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Linking` API to open a URL in a custom browser.  If the URL contains special characters or is improperly encoded, the `Linking.openURL` function might fail silently, leaving the user with no indication of an error.  This is particularly problematic in cases of deep linking where the failure can prevent the intended app functionality.
